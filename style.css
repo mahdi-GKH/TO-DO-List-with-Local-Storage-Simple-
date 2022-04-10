@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(61, 61, 250); 
+}
+
+div.content{
+    border: 1px rgb(237, 237, 237)  solid;
+    display: inline-block;
+    width: 25%;
+    
+    margin-left: 35%;
+
+}
+
+#input{
+    font-size: 35px;
+    float: left;
+    width: 86.7%;
+    background-color: black;
+    height: 50px;
+    color: white;
+    transition: 0.5s;
+    display: inline-block;
+    
+}
+
+#input:hover{
+    background-color: white;
+    color: black;
+    
+    
+}
+
+#bt_save{
+ 
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    transition: 0.5+s;
+
+}
+#bt_save:hover {
+   opacity: 0;
+}
+#bt_save_active{
+    width: 55px;
+    height: 55px;
+}
+
+#p_delete{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    
+}
+
+input#h1.checkbox:hover #delet{
+    display: inline-block;
+}
+
+
+#todo{
+    font-size: 35px;
+    background-color: rgb(237, 78, 118);
+    color: white;
+}
+
+
